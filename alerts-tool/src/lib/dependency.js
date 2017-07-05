@@ -1,0 +1,1 @@
+console.info('alerts-tool dependency.js loaded')

@@ -16,6 +16,10 @@ React
 
 The shell and payments-tool are bundled with React 15.6.1. The accounts-tool is bundled with React 15.0.0. Prior versions of React do not support multiple ```data-reactroot``` attributes on the page. The shell nests the tool within it's DOM hierarchy - so we therefore have React v15.0.0 nested inside React v15.6.1.
 
+Vue
+---
+
+A new alerts-tool is introduced which renders from a Vue template nested inside a React DOM.
 
 Quick Start
 -----------

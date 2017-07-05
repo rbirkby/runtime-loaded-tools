@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "install": "(cd shell && npm i) && (cd accounts-tool && npm i) && (cd payments-tool && npm i)",
-    "build": "(cd shell && npm run build) && (cd accounts-tool && npm run build) && (cd payments-tool && npm run build)"
+    "install": "(cd shell && npm i) && (cd accounts-tool && npm i) && (cd alerts-tool && npm i) && (cd payments-tool && npm i)",
+    "build": "(cd shell && npm run build) && (cd accounts-tool && npm run build) && (cd alerts-tool && npm run build) && (cd payments-tool && npm run build)"
   },
   "author": "",
-  "license": ""
+  "license": "",
+  "dependencies": {
+    "vue-loader": "^13.0.0",
+    "vue-template-compiler": "^2.3.4"
+  }
 }

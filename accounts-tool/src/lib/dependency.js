@@ -1,0 +1,1 @@
+console.info('accounts-tool dependency.js loaded')

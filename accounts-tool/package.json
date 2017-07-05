@@ -1,0 +1,14 @@
+{
+  "name": "accounts-tool",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+console.info('payments-tool dependency.js loaded')

@@ -10,5 +10,9 @@
   "license": "",
   "devDependencies": {
     "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }

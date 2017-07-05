@@ -11,6 +11,12 @@ Shared scripts can be handled in a similar way to WebPack CDN scripts using WebP
 
 The tool shims are WebPack dynamic imported. However, dynamic imports are really about loading, not discovery and thus can't dynamically discover resources managed elsewhere.
 
+React
+-----
+
+The shell and payments-tool are bundled with React 15.6.1. The accounts-tool is bundled with React 15.0.0. Prior versions of React do not support multiple ```data-reactroot``` attributes on the page. The shell nests the tool within it's DOM hierarchy - so we therefore have React v15.0.0 nested inside React v15.6.1.
+
+
 Quick Start
 -----------
 
